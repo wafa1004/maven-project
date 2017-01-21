@@ -42,17 +42,4 @@ public class Livre {
 		boolean test = this.auteur.equals(((Livre) livre).getAuteur());
 		return test;
 	}
-	
-	/*//Methode main pour tester la classe Livre
-	public static void main(String[] args) 
-	{
-		Livre livre1 = new Livre("Harry Potter " , "J.K. Rolling " , "Bloomsbury Publishing " , 26 , "roman");
-		Livre livre2 = new Livre("Le Robert Micro " , "Alain Rey " , "Divers Interforum " , 17 , "dictionnaire");
-		System.out.println(livre1);
-		System.out.println(livre2);
-		livre1.setPrix(33);
-		System.out.println(livre1);
-		System.out.println(livre2.getAuteur());
-	}*/
-
 }
